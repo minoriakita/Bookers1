@@ -1,15 +1,1 @@
-<body>
-<p id="notice"></p>
-<h1>Books</h1>
-<%= form_with model: @book do |f| %>
 
-<h2>New Book</h2>
-<h3>本のタイトル</h3>
-<%= f.text_field :title %>
-
-<h3>感想</h3>
-<%= f.text_area :body %>
-
-<div><%= f.submit 'Create Book' %></div>
-</body>
-<% end %>
